@@ -2,5 +2,5 @@ package triangle;
 
 public interface Triangle {
 	
-	public TriangleResult getTriangleResultForLenghts(int... lengths);
+	public TriangleResult getTriangleResultForLengths(int... lengths);
 }

@@ -4,7 +4,7 @@ public class TriangleFirstTry implements Triangle {
 
 	/** This implementation is a first try for the triangle problem and is barely able to handle some cases */
 	@Override
-	public TriangleResult getTriangleResultForLenghts(final int... lengths) {
+	public TriangleResult getTriangleResultForLengths(final int... lengths) {
 		if (lengths == null) {
 			return TriangleResult.UNKNOWN;
 		}
