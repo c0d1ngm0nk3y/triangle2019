@@ -1,6 +1,6 @@
 package triangle;
 
-public class TriangleTbach extends Triangle {
+public class TriangleTbach implements Triangle {
 
 	@Override
 	public TriangleResult getTriangleResultForLenghts(int... lengths) {

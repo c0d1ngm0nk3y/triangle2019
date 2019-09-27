@@ -1,6 +1,6 @@
 package triangle;
 
-public class TriangleUnknown extends Triangle {
+public class TriangleUnknown implements Triangle {
 
 	/** This implementation does not really know anything about triangles and always returns unknown */
 	@Override

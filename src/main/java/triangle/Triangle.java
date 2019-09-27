@@ -1,6 +1,6 @@
 package triangle;
 
-public abstract class Triangle {
+public interface Triangle {
 	
-	public abstract TriangleResult getTriangleResultForLenghts(int... lengths);
+	public TriangleResult getTriangleResultForLenghts(int... lengths);
 }
